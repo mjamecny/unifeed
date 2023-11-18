@@ -2,7 +2,9 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Manrope", "sans-serif"],
+    },
   },
   plugins: [],
 }
